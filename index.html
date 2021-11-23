@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Starter Template · Bootstrap v5.1</title>
+    <title>Invest Connect-Investor Registration Form</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/starter-template/">
 
@@ -29,24 +29,26 @@
           font-size: 3.5rem;
         }
       }
+      table th {
+    width: auto !important;
+}
     </style>
 
     
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
-    
   </head>
   <body class="bg-light">
     
 <div class="col-lg mx-auto p-3 py-md-5">
   
 
-  
-  
-    <main>
+  <main>
+
     <div class="py-3 text-center">
       <img class="d-block mx-auto mb-4" src="./assets/brand/logo.png" alt="" width="auto" height="57">
-      <h2>Firm Registration Form</h2>
+      <h1 class="mb-3">Invest Connect</h1>
+      <h2>Investor Registration Form</h2>
       
     </div>
 
@@ -55,866 +57,377 @@
     <div class="row">
       
       <div class="col-md- col-lg-">
-        <h3 class="mb-3">Company Profile</h3>
+        
         <form class="needs-validation" novalidate>
           <div class="row g-3 mb-3">
-            <div class="col-sm-6 col-md-8 col-lg-12">
-  <label for="com_concept" class="form-label"><h5 class="mb-3"> 1. Concept of the company (Product idea)</h5></label>
-  <textarea class="form-control" id="com_concept" rows="3" cols="20"></textarea>
-</div>
-<h5>2. Details of the core team</h5>
-<div class="col-xs col-sm-6 col-md-6 col-lg-4">
-              <label for="team_name1" class="form-label">Key Personal Name 1</label>
-              <input type="text" class="form-control" id="team_name1" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Valid Personal name is required.
-              </div>
+            
+
+<div class="col-xs col-sm-6 col-md-12 col-lg-12">
+              <label for="invest_pri_name" class="form-label">Name of the principal investor 1</label>
+              <input type="text" class="form-control" id="invest_pri_name" name="invest_pri_name" placeholder="" value="" required>
+              
             </div>
-            <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-              <label for="team_pos1" class="form-label">Position in the company</label>
-              <input type="text" class="form-control" id="team_pos1" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Valid position is required.
-              </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+  <label for="invest_pri_ad" class="form-label">Address</label>
+  <textarea class="form-control" id="invest_pri_ad" rows="3" cols="20"></textarea>
+</div>
+<div class="col-xs col-sm-6 col-md-4 col-lg-4">
+              <label for="invest_pri_res" class="form-label">Current Residence</label>
+              <input type="text" class="form-control" id="invest_pri_res" name="invest_pri_res" placeholder="" value="" required>
+             
+            </div>
+            <div class="col-xs col-sm-6 col-md-4 col-lg-4">
+              <label for="invest_pri_dob" class="form-label">Date Of Birth</label>
+              <input type="date" class="form-control" id="invest_pri_dob" name="invest_pri_dob" placeholder="" value="" required>
+              
             </div>
 
             <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-              <label for="team_edu1" class="form-label">Educational Qualification</label>
-              <input type="text" class="form-control" id="team_edu1" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Valid Educational Qualification is required.
-              </div>
+              <label for="invest_pri_edu" class="form-label">Education</label>
+              <input type="text" class="form-control" id="invest_pri_edu" name="invest_pri_edu" placeholder="" value="" required>
+              
             </div>
             <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-  <label for="team_exp1" class="form-label">Past Experience in detail</label>
-  <textarea class="form-control" id="team_exp1" rows="3"></textarea>
-</div>
+              <label for="invest_pri_ph" class="form-label">Mobile</label>
+              <input type="text" class="form-control" id="invest_pri_ph" name="invest_pri_ph" placeholder="123-456-7890">
+              
+            </div>
+            
 
            <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-              <label for="team_email1" class="form-label">Email <span class="text-muted">*</span></label>
-              <input type="email" class="form-control" id="team_email1" placeholder="you@example.com">
+              <label for="invest_pri_email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="invest_pri_email" name="invest_pri_email" placeholder="you@example.com">
               
             </div>
-            <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-              <label for="team_ph1" class="form-label">Phone <span class="text-muted">*</span></label>
-              <input type="text" class="form-control" id="team_ph1" placeholder="123-456-7890">
-              
-            </div>
+            
             <hr>
-
-
-            <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-              <label for="team_name2" class="form-label">Key Personal Name 2</label>
-              <input type="text" class="form-control" id="team_name2" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Valid Personal name is required.
-              </div>
-            </div>
-            <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-              <label for="team_pos2" class="form-label">Position in the company</label>
-              <input type="text" class="form-control" id="team_pos2" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Valid position is required.
-              </div>
-            </div>
-
-            <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-              <label for="team_edu2" class="form-label">Educational Qualification</label>
-              <input type="text" class="form-control" id="team_edu2" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Valid Educational Qualification is required.
-              </div>
-            </div>
-            <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-  <label for="team_exp2" class="form-label">Past Experience in detail</label>
-  <textarea class="form-control" id="team_exp2" rows="3"></textarea>
-</div>
-
-           <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-              <label for="team_email2" class="form-label">Email <span class="text-muted">*</span></label>
-              <input type="email" class="form-control" id="team_email2" placeholder="you@example.com">
-              <div class="invalid-feedback">
-                Please enter a valid email address.
-              </div>
-            </div>
-            <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-              <label for="team_ph2" class="form-label">Phone <span class="text-muted">*</span></label>
-              <input type="text" class="form-control" id="team_ph2" placeholder="123-456-7890">
-              <div class="invalid-feedback">
-                Please enter a valid Phone.
-              </div>
-            </div>
-
-            <hr>
-
-            <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-              <label for="team_name3" class="form-label">Key Personal Name 3</label>
-              <input type="text" class="form-control" id="team_name3" placeholder="" value="" required>
-              
-            </div>
-            <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-              <label for="team_pos3" class="form-label">Position in the company</label>
-              <input type="text" class="form-control" id="team_pos3" placeholder="" value="" required>
-              
-            </div>
-
-            <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-              <label for="team_edu3" class="form-label">Educational Qualification</label>
-              <input type="text" class="form-control" id="team_edu3" placeholder="" value="" required>
-              
-            </div>
-            <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-  <label for="team_exp3" class="form-label">Past Experience in detail</label>
-  <textarea class="form-control" id="team_exp3" rows="3"></textarea>
-</div>
-
-           <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-              <label for="team_email3" class="form-label">Email <span class="text-muted">*</span></label>
-              <input type="email" class="form-control" id="team_email3" placeholder="you@example.com">
-              <div class="invalid-feedback">
-                Please enter a valid email address.
-              </div>
-            </div>
-            <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-              <label for="team_ph3" class="form-label">Phone <span class="text-muted">*</span></label>
-              <input type="text" class="form-control" id="team_ph3" placeholder="123-456-7890">
-              <div class="invalid-feedback">
-                Please enter a valid Phone.
-              </div>
-            </div>
-
-            <h3 class="mb-3">Infrastructure</h3>
-
-            <h5>3. Land (in area) existing for the firm</h5>
+            
 
             <table class="table table-hover table-light table-responsive">
   <thead>
     <tr>
-      <th scope="col">Sl No.</th>
-      <th scope="col">Location</th>
-      <th scope="col">Area in Cent</th>
-      <th scope="col">Market value</th>
-      <th scope="col">Total land cost</th>
+      <th scope="col-lg-2">Name of the investors</th>
+      <th scope="col-lg-2">Address</th>
+      <th scope="col-lg-2">Current Residence</th>
+      <th scope="col-lg-2">Date of Birth</th>
+      <th scope="col-lg-2">Education</th>
+      <th scope="col-lg-1">Mobile</th>
+      <th scope="col-lg-1">E-mail</th>
+
+
+
 
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td><input type="text"  id="land_loc" name="land_loc" placeholder="" value="" required></td>
-      <td><input type="text"  id="land_area" name="land_area" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="invest_name1" placeholder="" value="" name="invest_name1" required></td>
+      <td><input type="textarea"  id="invest_ad1" name="invest_ad1" placeholder="" value="" required></td>
+      <td><input type="text"  id="invest_res1" name="invest_res1" placeholder="" value="" required></td>
+      <td><input type="date"  id="invest_dob1" name="invest_dob1" placeholder="" value="" required></td>
+      <td><input type="text"  id="invest_edu1" name="invest_edu1" placeholder="" value="" required></td>
+      <td><input type="text"  id="invest_ph1" name="invest_ph1" placeholder="" value="" required></td>
+      <td><input type="email"  id="invest_email1" name="invest_email1" placeholder="" value="" required></td>
 
     </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+     <tr>
+      <td><input type="text"  id="invest_name2" placeholder="" value="" name="invest_name2" required></td>
+      <td><input type="textarea"  id="invest_ad2" name="invest_ad2" placeholder="" value="" required></td>
+      <td><input type="text"  id="invest_res2" name="invest_res2" placeholder="" value="" required></td>
+      <td><input type="date"  id="invest_dob2" name="invest_dob2" placeholder="" value="" required></td>
+      <td><input type="text"  id="invest_edu2" name="invest_edu2" placeholder="" value="" required></td>
+      <td><input type="text"  id="invest_ph1" name="invest_ph1" placeholder="" value="" required></td>
+      <td><input type="email"  id="invest_email2" name="invest_email2" placeholder="" value="" required></td>
+
     </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+     <tr>
+      <td><input type="text"  id="invest_name3" placeholder="" value="" name="invest_name3" required></td>
+      <td><input type="textarea"  id="invest_ad3" name="invest_ad3" placeholder="" value="" required></td>
+      <td><input type="text"  id="invest_res3" name="invest_res3" placeholder="" value="" required></td>
+      <td><input type="date"  id="invest_dob3" name="invest_dob3" placeholder="" value="" required></td>
+      <td><input type="text"  id="invest_edu3" name="invest_edu3" placeholder="" value="" required></td>
+      <td><input type="text"  id="invest_ph3" name="invest_ph3" placeholder="" value="" required></td>
+      <td><input type="email"  id="invest_email3" name="invest_email3" placeholder="" value="" required></td>
+
     </tr>
+    
+
   </tbody>
 </table>
-
-<h5>4. Building and other infrastructure (constructed)</h5>
+<h3 class="mb-3">Professional Details</h3>
+<div class="col-sm-6 col-md-12 col-lg-12">
+  <label for="proff_deta" class="form-label">1. Brief Self Introduction and Profile of investor, group of investors or the represented company (Approval of your account as an investor specifically requires this information. So provide the maximum possible information with regard to previous professional experience in the domain)</label>
+  <textarea class="form-control" id="proff_deta" rows="3" cols="20" name="proff_deta"></textarea>
+</div>
+<div class="col-lg-4">
+<h5>Employment experience</h5>
 
             <table class="table table-hover table-light table-responsive">
-  <thead>
+              <tbody>
+  
     <tr>
-      <th scope="col">Sl No.</th>
-      <th scope="col">Location</th>
-      <th scope="col">Area in Sqft</th>
-      <th scope="col">Market value</th>
-      <th scope="col">Total land cost</th>
+      <th scope="col">Years of employment experience</th>
+      <td><input type="text"  id="emp_exp_yr" name="emp_exp_yr" placeholder="" value="" required></td>
+      
+      
 
     </tr>
-  </thead>
-  <tbody>
+  
+  
     <tr>
-      <th scope="row">1</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <th scope="row">Nature of the job</th>
+      <td><input type="text"  id="emp_job" name="emp_job" placeholder="" value="" required></td>
+      
+     
 
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <th scope="row">Companies in which the investor has worked</th>
+      <td><input type="text"  id="emp_coms" name="emp_coms" placeholder="" value="" required></td>
+      
+      
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <th scope="row">Industries in which investor(s) was employed</th>
+      <td><input type="text"  id="emp_inds" name="emp_inds" placeholder="" value="" required></td>
     </tr>
+      
+    
+    
   </tbody>
 </table>
-<h5>5. Machineries and equipment available</h5>
+</div>
+
+<div class="col-lg-4">
+<h5>Entrepreneurial experience</h5>
 
             <table class="table table-hover table-light table-responsive">
-  <thead>
+              <tbody>
+  
     <tr>
-      <th scope="col">Sl No.</th>
-      <th scope="col">Name of machineries</th>
-      <th scope="col">Cost of purchase</th>
-      <th scope="col">Life cycle in year</th>
-      <th scope="col">Year of usage</th>
+      <th scope="col">Years of entrepreneurial experience</th>
+      <td><input type="text"  id="entre_exp_yr" name="entre_exp_yr" placeholder="" value="" required></td>
+      
+      
 
     </tr>
-  </thead>
-  <tbody>
+  
+  
     <tr>
-      <th scope="row">1</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <th scope="row">Firms in which you have been part of as an entrepreneur/ investor</th>
+      <td><input type="text"  id="entre_firm" name="entre_firm" placeholder="" value="" required></td>
+      
+     
 
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <th scope="row">Industries in which you have entrepreneurial experience</th>
+      <td><input type="text"  id="entre_indus" name="entre_indus" placeholder="" value="" required></td>
+      
+      
     </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-    </tr>
-    <tr>
-      <th scope="row">4</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-    </tr>
-    <tr>
-      <th scope="row">5</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-    </tr>
-    <tr>
-      <th scope="row">6</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-    </tr>
-    <tr>
-      <th scope="row">7</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-    </tr>
-    <tr>
-      <th scope="row">8</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-    </tr>
-    <tr>
-      <th scope="row">9</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-    </tr>
-    <tr>
-      <th scope="row">10</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-    </tr>
+    
+      
+    
+    
   </tbody>
 </table>
-<h3 class="mb-3">Product/ Process/ Services</h3>
-<h5>6. Organization of the company / firm</h5>
-<div class="col-lg-4 col-md-4 col-sm-12">
-  <label for="team_name1" class="form-label">Name of Company</label>
-              <input type="text" class="form-control" id="team_name1" placeholder="" value="" required>
-              
-
 </div>
-<div class="col-lg-4 col-md-4 col-sm-12">
-  <label for="team_name1" class="form-label">Form of ownership</label>
-              <input type="text" class="form-control" id="team_name1" placeholder="" value="" required>
-              
+<div class="col-lg-4">
+<h5>Past investment history</h5>
 
-</div>
-
-
-    <div class="col-lg-4 col-md-4 col-sm-12 ">
-      <label for="team_name1" class="form-label">Whether trade mark registered</label>
-      <div class="d-flex flex-wrap">
+            <table class="table table-hover table-light table-responsive">
+              <tbody>
+  
+    <tr>
+      <th scope="col">Do you have any prior investment experience?</th>
+      <td>
     <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="radioFilter" id="filter-none" checked>
+        <input class="form-check-input" type="radio" name="radioFilter" id="pre_invest_exp" >
         <label class="form-check-label" for="inlineRadio1">Yes</label>
     </div>
     <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="radioFilter" id="filter-1">
+        <input class="form-check-input" type="radio" name="radioFilter" id="pre_invest_exp">
         <label class="form-check-label" for="inlineRadio2">No</label>
     </div>
     
     
+</td>
+      
+      
+
+    </tr>
+  
+  
+    <tr>
+      <th scope="row">How much money did you invest in your prior investment attempt?</th>
+      <td><input type="text"  id="pre_invest_amt" name="pre_invest_amt" placeholder="" value="" required></td>
+      
+     
+
+    </tr>
+    <tr>
+      <th scope="col">Are you satisfied with the outcome of your past investment experience?</th>
+      <td>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="radioFilter" id="pre_invest_stat" >
+        <label class="form-check-label" for="inlineRadio1">Yes</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="radioFilter" id="pre_invest_stat">
+        <label class="form-check-label" for="inlineRadio2">No</label>
+    </div>
+    
+    
+</td>
+      
+      
+
+    </tr>
+    
+      
+    
+    
+  </tbody>
+</table>
+</div>
+
+
+<div class="col-sm-6 col-md-12 col-lg-12">
+  <label for="com_concept" class="form-label">2. Please provide a description of the types of opportunities you are looking to invest in. (Description provided here will help you getting the most relevant business proposal).</label>
+  <textarea class="form-control" id="invest_opper_types" name="invest_opper_types" rows="3" cols="20"></textarea>
+</div>
+<h3 class="mb-3">Investment Preference</h3>
+
+
+<div class="col-xs col-sm-6 col-md-6 col-lg-4">
+  <h5>1. Investment Range</h5>
+              <label for="amt_invest" class="form-label">Specify the minimum and maximum amounts you would be willing to invest. The Investment range should be specified in INR.</label>
+              <input type="text" class="form-control" id="amt_invest" name="amt_invest" placeholder="" value="" required>
+              
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+              <h5> 2. Investment type</h5>
+      <label for="amt_invest_type" class="form-label"></label>
+      <div class="d-flex flex-wrap">
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="radioFilter" id="amt_invest_type" >
+        <label class="form-check-label" for="inlineRadio1">Working Partnership</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="radioFilter" id="amt_invest_type">
+        <label class="form-check-label" for="inlineRadio2">Silent Partnership</label>
+    </div>
+    
+    
+</div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12 ">
+              <h5>3. Preferred investment stage / Round of funding:</h5>
+      <label for="amt_invest_prefer" class="form-label"></label>
+      <div class="d-flex flex-wrap">
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="radioFilter" id="amt_invest_prefer">
+        <label class="form-check-label" for="inlineRadio1">Seed Capital or Early Stage</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="radioFilter" id="amt_invest_prefer">
+        <label class="form-check-label" for="inlineRadio2">Growth</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="radioFilter" id="amt_invest_prefer">
+        <label class="form-check-label" for="inlineRadio2">Others</label>
+    </div>
+    
+    
 </div>
     </div>
 
-<h5>7. Major activities of the company</h5>
-
-            <table class="table table-hover table-light table-responsive">
-  <thead>
-    <tr>
-      <th scope="col">Sl No.</th>
-      <th scope="col">Items</th>
-      <th scope="col">Description</th>
-      
-
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Raw material procurement</td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Production/processing</td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Service</td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">4</th>
-      <td>Packaging</td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">5</th>
-      <td>Distribution/Delivery</td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">6</th>
-      <td>Trading</td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">7</th>
-      <td>Export</td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    
-  </tbody>
-</table>
-
-<h5>8. Current products with specifications</h5>
-
-            <table class="table table-hover table-light table-responsive">
-  <thead>
-    <tr>
-      <th scope="col">Sl No.</th>
-      <th scope="col">Title of the product</th>
-      <th scope="col">Type of the product</th>
-      <th scope="col">Brand Name</th>
-      <th scope="col">Uniqueness</th>
-
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-    </tr>
-    <tr>
-      <th scope="row">4</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-    </tr>
-    <tr>
-      <th scope="row">5</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-    </tr>
-    <tr>
-      <th scope="row">6</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-    </tr>
-    <tr>
-      <th scope="row">7</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-    </tr>
-    
-  </tbody>
-</table>
-<h3 class="mb-3">Market and marketing system</h3>
-<h5>9. Market and marketing method of the products</h5>
-
-            <table class="table table-hover table-light table-responsive">
-  <thead>
-    <tr>
-      <th scope="col">Sl No.</th>
-      <th scope="col">Type of marketing system</th>
-      <th scope="col">Marketing team</th>
-      <th scope="col">Collaborators</th>
-      
-
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-     
-
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">4</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">5</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">6</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">7</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">8</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    
-  </tbody>
-</table>
-<h5>10. Major clients of the company</h5>
-
-            <table class="table table-hover table-light table-responsive">
-  <thead>
-    <tr>
-      <th scope="col">Sl No.</th>
-      <th scope="col">Type of the client</th>
-      <th scope="col">Name of the client</th>
-      <th scope="col">Category of the client</th>
-      
-
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-     
-
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">4</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">5</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
+    <div class="col-lg-4 col-md-4 col-sm-12 ">
+              <h5> 4. Type of business</h5>
+      <label for="amt_invest_sec" class="form-label"></label>
+      <div class="d-flex flex-wrap">
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="radioFilter" id="amt_invest_sec">
+        <label class="form-check-label" for="inlineRadio1">Service Sector</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="radioFilter" id="amt_invest_sec">
+        <label class="form-check-label" for="inlineRadio2">Manufacturing sector</label>
+    </div>
     
     
-  </tbody>
-</table>
-<h3 class="mb-3">Manpower</h3>
-<h5>11. Staff combination and strength</h5>
-
-            <table class="table table-hover table-light table-responsive table-sm" style="width: 900px;">
-  <thead>
-    <tr>
-      <th scope="col">Category</th>
-      <th scope="col">Permanent</th>
-      <th scope="col">Temporary</th>
-      <th scope="col">Total</th>
-      
-
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">[a] Managerial</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-     
-
-    </tr>
-    <tr>
-      <th scope="row">[b] Skilled labors</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">[c] Unskilled labors</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    
-    
-    
-  </tbody>
-</table>
-
-<h3 class="mb-3">Present perception and future scope</h3>
-
-<div class="col-sm-6 col-md-8 col-lg-12">
-  <label for="com_concept" class="form-label"><h5>12. Customer deals</h5></label>
-  <textarea class="form-control" id="com_concept" rows="3" cols="20"></textarea>
 </div>
-
-<div class="col-lg-4 col-md-4 col-sm-12">
-
-<h5>13. Risk Factors</h5>
-<table class="table table-hover table-light table-responsive">
-  
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
-      
-
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-12 ">
+              <h5>5. Interested industries for investment</h5>
+      <label for="interest_indus" class="form-label"></label>
+      <div class="d-flex flex-wrap">
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" name="interest_indus" id="interest_indus">
+        <label class="form-check-label" for="inlineRadio1">Food Processing</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" name="interest_indus" id="interest_indus">
+        <label class="form-check-label" for="inlineRadio2">Recycling</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" name="radioFilter" id="interest_indus">
+        <label class="form-check-label" for="inlineRadio2">Technology / Software</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" name="interest_indus" id="interest_indus">
+        <label class="form-check-label" for="inlineRadio2">Textile Manufacturing</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" name="interest_indus" id="interest_indus">
+        <label class="form-check-label" for="inlineRadio1">Agri based</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" name="interest_indus" id="interest_indus">
+        <label class="form-check-label" for="inlineRadio2">Warehousing</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" name="interest_indus" id="interest_indus">
+        <label class="form-check-label" for="inlineRadio2">Logistics & Supply Chain</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" name="interest_indus" id="interest_indus">
+        <label class="form-check-label" for="inlineRadio2">Any other</label>
+    </div>
     
-  </tbody>
-</table>
+    
 </div>
-<div class="col-lg-4 col-md-4 col-sm-12">
-
-<h5>14. Highlights</h5>
-<table class="table table-hover table-light table-responsive">
-  
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
-      
-
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
+    </div>
     
-  </tbody>
-</table>
-</div>
-<div class="col-lg-4 col-md-4 col-sm-12">
-
-<h5>15. Innovations</h5>
-<table class="table table-hover table-light table-responsive">
-  
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
-      
-
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    
-  </tbody>
-</table>
-</div>
-<h3 class="mb-3">Performance indicators</h3>
-
-<h5>16. Turnover reported for the last 3 years (based on audited account statement)</h5>
-
-            <table class="table table-hover table-light table-responsive">
-  <thead>
-    <tr>
-      <th scope="col">Particulars</th>
-      <th scope="col">For Year<br>2018-19</th>
-      <th scope="col">For Year<br>2019-20</th>
-      <th scope="col">For Year<br>2020-21</th>
-      
-
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Turnover</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-     
-
-    </tr>
-    <tr>
-      <th scope="row">Gross Profit</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">Net Profit</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    
-    
-    
-  </tbody>
-</table>
-<h3 class="mb-3">Intangible assets</h3>
-<h5>17. Trade mark/ Brand Value (Discounted Cash Flow Method)</h5>
-<table class="table table-hover table-light table-responsive">
-  
-  <tbody>
-    <tr>
-      <th scope="row">Estimated Cash Flow for 5 years</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-
-    </tr>
-    <tr>
-      <th scope="row">Average Profit Per year</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">Number of Profit years</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">Value = Average Profit x Number of Years</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    
-  </tbody>
-</table>
-<h5 class="mb-3">18. Proposed Investment</h5>
+      <h5 class="mb-3">6. Please provide the details of your asset holdings if you are interested to invest in projects to tap further economic
+opportunities from such assets.</h5>
 
 
             <table class="table table-hover table-light table-responsive">
   <thead>
     <tr>
-      <th scope="col">Sl No.</th>
-      <th scope="col">Items</th>
-      <th scope="col">Expected Investment<br>2019-20</th>
-      <th scope="col">Remarks</th>
+      <th scope="col"></th>
+      <th scope="col">Land Details</th>
+      <th scope="col">Buildings (Commercial)</th>
+      
       
 
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-     
-
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">4</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">Total</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
-    <tr>
-      <th scope="row"></th>
-      <th scope="row">Beneficiary Contribution</th>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
-      
-    </tr>
     
-    
-    
-  </tbody>
+    <tr>
+      <th scope="row">Available Assets</th>
+      <td><input type="text"  id="asset_land" name="asset_land" placeholder="" value="" required></td>
+      <td><input type="text"  id="asset_builds" name="asset_builds" placeholder="" value="" required></td>
+      
+      
+    </tr>
+   </tbody>
 </table>
 
-
-
-
-
-            
-
-            
-
-            
-
-            
-
-            
-          </div>
+</div>
 
           
 
@@ -922,80 +435,34 @@
 
           
 
-          <!--<hr class="my-4">
+          
 
-          <h4 class="mb-3">Payment</h4>
-
-          <div class="my-3">
-            <div class="form-check">
-              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
-              <label class="form-check-label" for="credit">Credit card</label>
-            </div>
-            <div class="form-check">
-              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
-              <label class="form-check-label" for="debit">Debit card</label>
-            </div>
-            <div class="form-check">
-              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-              <label class="form-check-label" for="paypal">PayPal</label>
-            </div>
-          </div> -->
-
-          <!--<div class="row gy-3">
-            <div class="col-md-6">
-              <label for="cc-name" class="form-label">Name on card</label>
-              <input type="text" class="form-control" id="cc-name" placeholder="" required>
-              <small class="text-muted">Full name as displayed on card</small>
-              <div class="invalid-feedback">
-                Name on card is required
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <label for="cc-number" class="form-label">Credit card number</label>
-              <input type="text" class="form-control" id="cc-number" placeholder="" required>
-              <div class="invalid-feedback">
-                Credit card number is required
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <label for="cc-expiration" class="form-label">Expiration</label>
-              <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
-              <div class="invalid-feedback">
-                Expiration date required
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <label for="cc-cvv" class="form-label">CVV</label>
-              <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
-              <div class="invalid-feedback">
-                Security code required
-              </div>
-            </div>
-          </div>-->
-
-          <hr class="my-4">
+          
           <div class="col-md-12 text-center">
 
-          <button class="w-25 btn btn-primary btn-lg" type="submit">Submit</button>
+          <button class="btn btn-primary btn-md" type="submit">Submit</button>
         </div>
         </form>
       </div>
     </div>
     </div>
-  </main>
+
+
     
-  
+
+    
+
+   
+
+    
+  </main>
   <footer class="pt-5 my-5 text-muted border-top">
-    Created by the Bootstrap team &middot; &copy; 2021
+    Created by signrOots Technologies &middot; &copy; 2021
   </footer>
 </div>
 
 
     <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
-    
 
       
   </body>
