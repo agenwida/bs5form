@@ -62,16 +62,24 @@
           <div class="row g-3 mb-3">
             
 
-<div class="col-xs col-sm-6 col-md-12 col-lg-12">
+<div class="col-xs col-sm-6 col-md-4 col-lg-4">
               <label for="invest_pri_name" class="form-label">Name of the principal investor 1</label>
               <input type="text" class="form-control" id="invest_pri_name" name="invest_pri_name" placeholder="" value="" required>
               
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-4">
-  <label for="invest_pri_ad" class="form-label">Address</label>
-  <textarea class="form-control" id="invest_pri_ad" rows="3" cols="20"></textarea>
-</div>
-<div class="col-xs col-sm-6 col-md-4 col-lg-4">
+            <div class="col-xs col-sm-6 col-md-4 col-lg-4">
+              <label for="invest_pri_ph" class="form-label">Mobile</label>
+              <input type="text" class="form-control" id="invest_pri_ph" name="invest_pri_ph" placeholder="123-456-7890">
+              
+            </div>
+            
+
+           <div class="col-xs col-sm-6 col-md-4 col-lg-4">
+              <label for="invest_pri_email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="invest_pri_email" name="invest_pri_email" placeholder="you@example.com">
+              
+            </div>
+            <div class="col-xs col-sm-6 col-md-4 col-lg-4">
               <label for="invest_pri_res" class="form-label">Current Residence</label>
               <input type="text" class="form-control" id="invest_pri_res" name="invest_pri_res" placeholder="" value="" required>
              
@@ -82,23 +90,17 @@
               
             </div>
 
-            <div class="col-xs col-sm-6 col-md-6 col-lg-4">
+            <div class="col-xs col-sm-6 col-md-4 col-lg-4">
               <label for="invest_pri_edu" class="form-label">Education</label>
               <input type="text" class="form-control" id="invest_pri_edu" name="invest_pri_edu" placeholder="" value="" required>
               
             </div>
-            <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-              <label for="invest_pri_ph" class="form-label">Mobile</label>
-              <input type="text" class="form-control" id="invest_pri_ph" name="invest_pri_ph" placeholder="123-456-7890">
-              
-            </div>
-            
+            <div class="col-sm-6 col-md-8 col-lg-8">
+  <label for="invest_pri_ad" class="form-label">Address</label>
+  <textarea class="form-control" id="invest_pri_ad" rows="3" cols="20"></textarea>
+</div>
 
-           <div class="col-xs col-sm-6 col-md-6 col-lg-4">
-              <label for="invest_pri_email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="invest_pri_email" name="invest_pri_email" placeholder="you@example.com">
-              
-            </div>
+            
             
             <hr>
             
@@ -159,91 +161,61 @@
   <label for="proff_deta" class="form-label">1. Brief Self Introduction and Profile of investor, group of investors or the represented company (Approval of your account as an investor specifically requires this information. So provide the maximum possible information with regard to previous professional experience in the domain)</label>
   <textarea class="form-control" id="proff_deta" rows="3" cols="20" name="proff_deta"></textarea>
 </div>
-<div class="col-lg-4">
+
+
 <h5>Employment experience</h5>
-
-            <table class="table table-hover table-light table-responsive">
-              <tbody>
+<div class="col-xs col-sm-6 col-md-4 col-lg-4">
   
-    <tr>
-      <th scope="col">Years of employment experience</th>
-      <td><input type="text"  id="emp_exp_yr" name="emp_exp_yr" placeholder="" value="" required></td>
-      
-      
-
-    </tr>
+              <label for="emp_exp_yr" class="form-label">Years of employment experience</label>
+              <input type="text"  id="emp_exp_yr" name="emp_exp_yr" placeholder="" value="" required>
+              
+            </div>
+            <div class="col-xs col-sm-6 col-md-4 col-lg-4">
   
+              <label for="emp_job" class="form-label">    Nature of the job</label><br>
+              <input type="text"  id="emp_job" name="emp_job" placeholder="" value="" required>
+              
+            </div>
+            <div class="col-xs col-sm-6 col-md-4 col-lg-4">
   
-    <tr>
-      <th scope="row">Nature of the job</th>
-      <td><input type="text"  id="emp_job" name="emp_job" placeholder="" value="" required></td>
-      
-     
-
-    </tr>
-    <tr>
-      <th scope="row">Companies in which the investor has worked</th>
-      <td><input type="text"  id="emp_coms" name="emp_coms" placeholder="" value="" required></td>
-      
-      
-    </tr>
-    <tr>
-      <th scope="row">Industries in which investor(s) was employed</th>
-      <td><input type="text"  id="emp_inds" name="emp_inds" placeholder="" value="" required></td>
-    </tr>
-      
-    
-    
-  </tbody>
-</table>
-</div>
-
-<div class="col-lg-4">
-<h5>Entrepreneurial experience</h5>
-
-            <table class="table table-hover table-light table-responsive">
-              <tbody>
+              <label for="emp_coms" class="form-label">Companies in which the investor has worked</label>
+              <input type="text"  id="emp_coms" name="emp_coms" placeholder="" value="" required>
+              
+            </div>
+            <div class="col-xs col-sm-6 col-md-4 col-lg-4">
   
-    <tr>
-      <th scope="col">Years of entrepreneurial experience</th>
-      <td><input type="text"  id="entre_exp_yr" name="entre_exp_yr" placeholder="" value="" required></td>
-      
-      
-
-    </tr>
+              <label for="emp_inds" class="form-label">Industries in which investor(s) was employed</label>
+              <input type="text"  id="emp_inds" name="emp_inds" placeholder="" value="" required>
+              
+            </div>
+            <h5>Entrepreneurial experience</h5>
+<div class="col-xs col-sm-6 col-md-4 col-lg-4">
   
+              <label for="emp_exp_yr" class="form-label">Years of entrepreneurial experience </label><br>
+              <input type="text"  id="emp_exp_yr" name="emp_exp_yr" placeholder="" value="" required>
+              
+            </div>
+            <div class="col-xs col-sm-6 col-md-4 col-lg-4">
   
-    <tr>
-      <th scope="row">Firms in which you have been part of as an entrepreneur/ investor</th>
-      <td><input type="text"  id="entre_firm" name="entre_firm" placeholder="" value="" required></td>
-      
-     
-
-    </tr>
-    <tr>
-      <th scope="row">Industries in which you have entrepreneurial experience</th>
-      <td><input type="text"  id="entre_indus" name="entre_indus" placeholder="" value="" required></td>
-      
-      
-    </tr>
-    
-      
-    
-    
-  </tbody>
-</table>
-</div>
-<div class="col-lg-4">
-<h5>Past investment history</h5>
-
-            <table class="table table-hover table-light table-responsive">
-              <tbody>
+              <label for="entre_firm" class="form-label">Firms in which you have been part of as an entrepreneur/ investor</label><br>
+              <input type="text"  id="entre_firm" name="entre_firm" placeholder="" value="" required>
+              
+            </div>
+            <div class="col-xs col-sm-6 col-md-4 col-lg-4">
   
-    <tr>
-      <th scope="col">Do you have any prior investment experience?</th>
-      <td>
+              <label for="entre_indus" class="form-label">Industries in which you have entrepreneurial experience</label>
+              <input type="text"  id="entre_indus" name="entre_indus" placeholder="" value="" required>
+              
+            </div>
+
+
+            <h5>Past investment history</h5>
+<div class="col-lg-4 col-md-4 col-sm-12 ">
+
+      <label for="pre_invest_exp" class="form-label">Do you have any prior investment experience?</label>
+      <div class="d-flex flex-wrap">
     <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="radioFilter" id="pre_invest_exp" >
+        <input class="form-check-input" type="radio" name="radioFilter" id="pre_invest_exp">
         <label class="form-check-label" for="inlineRadio1">Yes</label>
     </div>
     <div class="form-check form-check-inline">
@@ -252,25 +224,20 @@
     </div>
     
     
-</td>
-      
-      
-
-    </tr>
+</div>
+    </div>
+    <div class="col-xs col-sm-6 col-md-4 col-lg-4">
   
-  
-    <tr>
-      <th scope="row">How much money did you invest in your prior investment attempt?</th>
-      <td><input type="text"  id="pre_invest_amt" name="pre_invest_amt" placeholder="" value="" required></td>
-      
-     
+              <label for="pre_invest_amt" class="form-label">How much money did you invest in your prior investment attempt?</label>
+              <input type="text"  id="pre_invest_amt" name="pre_invest_amt" placeholder="" value="" required>
+              
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
 
-    </tr>
-    <tr>
-      <th scope="col">Are you satisfied with the outcome of your past investment experience?</th>
-      <td>
+      <label for="pre_invest_stat" class="form-label">Are you satisfied with the outcome of your past investment experience?</label>
+      <div class="d-flex flex-wrap">
     <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="radioFilter" id="pre_invest_stat" >
+        <input class="form-check-input" type="radio" name="radioFilter" id="pre_invest_stat">
         <label class="form-check-label" for="inlineRadio1">Yes</label>
     </div>
     <div class="form-check form-check-inline">
@@ -279,18 +246,20 @@
     </div>
     
     
-</td>
-      
-      
-
-    </tr>
-    
-      
-    
-    
-  </tbody>
-</table>
 </div>
+    </div>
+
+
+
+            
+
+          
+
+
+
+
+
+
 
 
 <div class="col-sm-6 col-md-12 col-lg-12">
@@ -300,7 +269,7 @@
 <h3 class="mb-3">Investment Preference</h3>
 
 
-<div class="col-xs col-sm-6 col-md-6 col-lg-4">
+<div class="col-xs col-sm-6 col-md-12 col-lg-12">
   <h5>1. Investment Range</h5>
               <label for="amt_invest" class="form-label">Specify the minimum and maximum amounts you would be willing to invest. The Investment range should be specified in INR.</label>
               <input type="text" class="form-control" id="amt_invest" name="amt_invest" placeholder="" value="" required>
@@ -359,7 +328,7 @@
     
 </div>
     </div>
-    <div class="col-lg-8 col-md-8 col-sm-12 ">
+    <div class="col-lg-12 col-md-12 col-sm-12 ">
               <h5>5. Interested industries for investment</h5>
       <label for="interest_indus" class="form-label"></label>
       <div class="d-flex flex-wrap">
@@ -404,21 +373,21 @@
 opportunities from such assets.</h5>
 
 
-            <table class="table table-hover table-light table-responsive">
-  <thead>
+            <table class="table table-hover table-light table-responsive table-sm">
+  <tbody>
     <tr>
-      <th scope="col"></th>
-      <th scope="col">Land Details</th>
-      <th scope="col">Buildings (Commercial)</th>
+      <td scope="col"></td>
+      <td scope="col">Land Details</td>
+      <td scope="col">Buildings (Commercial)</td>
       
       
 
     </tr>
-  </thead>
-  <tbody>
+  
+  
     
     <tr>
-      <th scope="row">Available Assets</th>
+      <td scope="row">Available Assets</td>
       <td><input type="text"  id="asset_land" name="asset_land" placeholder="" value="" required></td>
       <td><input type="text"  id="asset_builds" name="asset_builds" placeholder="" value="" required></td>
       
@@ -456,7 +425,7 @@ opportunities from such assets.</h5>
 
     
   </main>
-  <footer class="pt-5 my-5 text-muted border-top">
+  <footer class="pt-5 my-5 text-muted border-top text-center" >
     Created by signrOots Technologies &middot; &copy; 2021
   </footer>
 </div>
