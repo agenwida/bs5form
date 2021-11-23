@@ -13,7 +13,7 @@
     
 
     <!-- Bootstrap core CSS -->
-<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -34,7 +34,7 @@
     
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
-    <link href="form-validation.css" rel="stylesheet">
+    
   </head>
   <body class="bg-light">
     
@@ -45,7 +45,7 @@
   
     <main>
     <div class="py-3 text-center">
-      <img class="d-block mx-auto mb-4" src="./assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+      <img class="d-block mx-auto mb-4" src="../assets/brand/logo.png" alt="" width="auto" height="57">
       <h2>Firm Registration Form</h2>
       
     </div>
@@ -62,7 +62,7 @@
   <label for="com_concept" class="form-label">1. Concept of the company (Product idea)</label>
   <textarea class="form-control" id="com_concept" rows="3" cols="20"></textarea>
 </div>
-<h5>Deatails of the core team</h5>
+<h5>Details of the core team</h5>
 <div class="col-xs col-sm-6 col-md-6 col-lg-4">
               <label for="team_name1" class="form-label">Personal Name 1</label>
               <input type="text" class="form-control" id="team_name1" placeholder="" value="" required>
@@ -93,16 +93,12 @@
            <div class="col-xs col-sm-6 col-md-6 col-lg-4">
               <label for="team_email1" class="form-label">Email <span class="text-muted">*</span></label>
               <input type="email" class="form-control" id="team_email1" placeholder="you@example.com">
-              <div class="invalid-feedback">
-                Please enter a valid email address.
-              </div>
+              
             </div>
             <div class="col-xs col-sm-6 col-md-6 col-lg-4">
               <label for="team_ph1" class="form-label">Phone <span class="text-muted">*</span></label>
               <input type="text" class="form-control" id="team_ph1" placeholder="123-456-7890">
-              <div class="invalid-feedback">
-                Please enter a valid Phone.
-              </div>
+              
             </div>
             <hr>
 
@@ -154,24 +150,18 @@
             <div class="col-xs col-sm-6 col-md-6 col-lg-4">
               <label for="team_name3" class="form-label">Personal Name 3</label>
               <input type="text" class="form-control" id="team_name3" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Valid Personal name is required.
-              </div>
+              
             </div>
             <div class="col-xs col-sm-6 col-md-6 col-lg-4">
               <label for="team_pos3" class="form-label">Position in the company</label>
               <input type="text" class="form-control" id="team_pos3" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Valid position is required.
-              </div>
+              
             </div>
 
             <div class="col-xs col-sm-6 col-md-6 col-lg-4">
               <label for="team_edu3" class="form-label">Educational Qualification</label>
               <input type="text" class="form-control" id="team_edu3" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Valid Educational Qualification is required.
-              </div>
+              
             </div>
             <div class="col-xs col-sm-6 col-md-6 col-lg-4">
   <label for="team_exp3" class="form-label">Past Experience in detail</label>
@@ -198,7 +188,7 @@
             <table class="table table-hover table-light table-responsive">
   <thead>
     <tr>
-      <th scope="col">#</th>
+      <th scope="col">Sl No.</th>
       <th scope="col">Location</th>
       <th scope="col">Area in cent</th>
       <th scope="col">Market value</th>
@@ -237,7 +227,7 @@
             <table class="table table-hover table-light table-responsive">
   <thead>
     <tr>
-      <th scope="col">#</th>
+      <th scope="col">Sl No.</th>
       <th scope="col">Location</th>
       <th scope="col">Area in cent</th>
       <th scope="col">Market value</th>
@@ -275,7 +265,7 @@
             <table class="table table-hover table-light table-responsive">
   <thead>
     <tr>
-      <th scope="col">#</th>
+      <th scope="col">Sl No.</th>
       <th scope="col">Location</th>
       <th scope="col">Area in cent</th>
       <th scope="col">Market value</th>
@@ -357,6 +347,557 @@
     </tr>
   </tbody>
 </table>
+<h5>Organization of the company / firm</h5>
+<table class="table table-hover table-light table-responsive">
+  
+  <tbody>
+    <tr>
+      <th scope="row">Name of Company</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+
+    </tr>
+    <tr>
+      <th scope="row">Form of ownership</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">Whether trade mark registered</th>
+      <td><div class="d-flex flex-wrap">
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="radioFilter" id="filter-none" checked>
+        <label class="form-check-label" for="inlineRadio1">Yes</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="radioFilter" id="filter-1">
+        <label class="form-check-label" for="inlineRadio2">No</label>
+    </div>
+    
+    
+</div></td>
+      
+    </tr>
+  </tbody>
+</table>
+
+<h5>Machineries and equipment available</h5>
+
+            <table class="table table-hover table-light table-responsive">
+  <thead>
+    <tr>
+      <th scope="col">Sl No.</th>
+      <th scope="col">Items</th>
+      <th scope="col">Description</th>
+      
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Raw material procurement</td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Production/processing</td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Service</td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Packaging</td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Distribution/Delivery</td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Trading</td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>Export</td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+
+<h5>Current products with specifications</h5>
+
+            <table class="table table-hover table-light table-responsive">
+  <thead>
+    <tr>
+      <th scope="col">Sl No.</th>
+      <th scope="col">Title of the product</th>
+      <th scope="col">Type of the product</th>
+      <th scope="col">Brand Name</th>
+      <th scope="col">Uniqueness</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+    </tr>
+    
+  </tbody>
+</table>
+<h5>Market and marketing method of the products</h5>
+
+            <table class="table table-hover table-light table-responsive">
+  <thead>
+    <tr>
+      <th scope="col">Sl No.</th>
+      <th scope="col">Type of marketing system</th>
+      <th scope="col">Marketing team</th>
+      <th scope="col">Collaborators</th>
+      
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+     
+
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+<h5>Major clients of the company</h5>
+
+            <table class="table table-hover table-light table-responsive">
+  <thead>
+    <tr>
+      <th scope="col">Sl No.</th>
+      <th scope="col">Type of the client</th>
+      <th scope="col">Name of the client</th>
+      <th scope="col">Category of the client</th>
+      
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+     
+
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    
+    
+  </tbody>
+</table>
+<h5>Staff combination and strength</h5>
+
+            <table class="table table-hover table-light table-responsive table-sm" style="width: 900px;">
+  <thead>
+    <tr>
+      <th scope="col">Category</th>
+      <th scope="col">Permanent</th>
+      <th scope="col">Temporary</th>
+      <th scope="col">Total</th>
+      
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">[a] Managerial</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+     
+
+    </tr>
+    <tr>
+      <th scope="row">[b] Skilled labors</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">[c] Unskilled labors</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    
+    
+    
+  </tbody>
+</table>
+
+<div class="col-sm-6 col-md-8 col-lg-12">
+  <label for="com_concept" class="form-label"><h5>Customer deals</h5></label>
+  <textarea class="form-control" id="com_concept" rows="3" cols="20"></textarea>
+</div>
+
+<div class="col-lg-4 col-md-4 col-sm-12">
+
+<h5>Risk Factors</h5>
+<table class="table table-hover table-light table-responsive">
+  
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
+      
+
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-12">
+
+<h5>Highlights</h5>
+<table class="table table-hover table-light table-responsive">
+  
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
+      
+
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-12">
+
+<h5>Innovations</h5>
+<table class="table table-hover table-light table-responsive">
+  
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
+      
+
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><input type="textarea"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+</div>
+
+<h5>Turnover reported for the last 3 years (based on audited account statement)</h5>
+
+            <table class="table table-hover table-light table-responsive">
+  <thead>
+    <tr>
+      <th scope="col">Particulars</th>
+      <th scope="col">For Year<br>2018-19</th>
+      <th scope="col">For Year<br>2019-20</th>
+      <th scope="col">For Year<br>2020-21</th>
+      
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Turnover</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+     
+
+    </tr>
+    <tr>
+      <th scope="row">Gross Profit</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">Net Profit</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    
+    
+    
+  </tbody>
+</table>
+<h5>Trade mark/ Brand Value (Discounted Cash Flow Method)</h5>
+<table class="table table-hover table-light table-responsive">
+  
+  <tbody>
+    <tr>
+      <th scope="row">Estimated Cash Flow for 5 years</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+
+    </tr>
+    <tr>
+      <th scope="row">Average Profit Per year</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">Number of Profit years</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">Value = Average Profit x Number of Years</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+
+<h5>Proposed Investment</h5>
+
+            <table class="table table-hover table-light table-responsive">
+  <thead>
+    <tr>
+      <th scope="col">Sl No.</th>
+      <th scope="col">Items</th>
+      <th scope="col">Expected Investment<br>2019-20</th>
+      <th scope="col">Remarks</th>
+      
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+     
+
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">Total</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <th scope="row">Beneficiary Contribution</th>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      <td><input type="text"  id="team_name2" placeholder="" value="" required></td>
+      
+    </tr>
+    
+    
+    
+  </tbody>
+</table>
+
+
+
+
 
             
 
@@ -447,8 +988,8 @@
 </div>
 
 
-    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="form-validation.js"></script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    
 
       
   </body>
